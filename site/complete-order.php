@@ -21,12 +21,19 @@ catch (PDOException $e) {
 }
 
 $orderItems = $_SESSION['order'];
-
-
+/*
+0: [id:7, qty:3]
+1: [id:3, qty:1]
+2: [id:10, qty:1]
+3: [id:5, qty:1]
+4: [id:1, qty:1]
+5: [id:3, qty:1]
+*/
+    
 
     // TODO: You need to write complete-order.php
     // It should :
-    //  1. INSERT a new record into the ORDERS table, and get the ID
-    //  2. Get all of the iitems from the SESSION 
+    //  1. INSERT a new record into the ORDERS table, and get the ID  DONE
+    //  2. Get all of the items from the SESSION 
     //  3. One by one, INSERT them along with ORDER ID into CONTAINS table
     // 
