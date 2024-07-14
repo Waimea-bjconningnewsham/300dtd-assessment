@@ -29,7 +29,7 @@ $orderItems = $_SESSION['order'];
 4: [id:1, qty:1]
 5: [id:3, qty:1]
 */
-    
+   
 
     // TODO: You need to write complete-order.php
     // It should :
