@@ -13,6 +13,7 @@
         echo 'None!';
     }
     else {
+        
         echo '<ul>';
 
         // Show what is currently in order
@@ -36,6 +37,31 @@
         echo '</ul>';
     }
 
+
+    $totalPrice = 0.0; //adding the total price of the order
+
+    foreach ($orderItems as $item) {
+    // Fetch the price of the menu item
+    $priceQuery = 'SELECT price FROM menu WHERE id = ?';
+    try {
+        $priceStmt = $db->prepare($priceQuery);
+        $priceStmt->execute([$item['id']]);
+        $priceResult = $priceStmt->fetch(PDO::FETCH_ASSOC); //gets price for the menu id
+        if ($priceResult) {
+            $itemPrice = $priceResult['price'];
+            $totalPrice += $itemPrice * $item['qty'];
+        } else {
+            die('Invalid menu item ID.');
+        }
+    } catch (PDOException $e) {
+        consoleLog($e->getMessage(), 'DB Query', ERROR);
+        die('There was an error fetching the item price.');
+    }
+    }
+    if ($orderItems == []) {} //only display total if items in order
+    else {
+    echo "The total of your order is $" . number_format($totalPrice, 2) . ".";}
+    
     echo '<p><a href="reset-order.php">Reset the Order</a>';
 
     //-------------------------------------------------------------------
@@ -71,6 +97,7 @@
         echo '<option value="' . $id . '">' . $product . ' - ' . $price . '</option>';
     }
 
+   
     echo '</select>';
 
     echo '<label>Quantity</label>
@@ -91,5 +118,3 @@
 
 
 <?php require_once '_bottom.php'; ?>
-
-
