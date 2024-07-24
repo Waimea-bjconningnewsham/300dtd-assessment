@@ -64,9 +64,9 @@ All the costomer data is going into the intended Database, for the sign ups they
 
 ### DATE HERE
 
-Replace this test with what you are working on
+I made a menu page, a home page, and contact page
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+I mainly did a lot of writing for the pages, a little bit of codeing here and there, to make the tabs for the pages work and for the tabs to show, I also wrote a little more for the ordoring page.
 
 > Replace this text with any user feedback / comments
 
@@ -74,13 +74,13 @@ Replace this text with notes describing how you acted upon the user feedback: ma
 
 ### DATE HERE
 
-Replace this test with what you are working on
+I added a function that adds up the total of the users order
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+I tested this by putting things into the ordering list and seeing it add up the prices of the item of the things I was ordering and then I would do the math of the ordering to see if it was the same as what was showing on the screen.
 
 > Replace this text with any user feedback / comments
 
-Replace this text with notes describing how you acted upon the user feedback: made changes to design, etc.
+The adding was correct and I can add as many thing as I would like and the adding function would work.
 
 ### DATE HERE
 
