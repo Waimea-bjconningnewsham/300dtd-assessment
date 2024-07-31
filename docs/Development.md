@@ -11,7 +11,7 @@ Assessment Standards: **91902** and **91903**
 
 ## Design, Development and Testing Log
 
-### DATE HERE
+### 30/04/24
 
 I worked on the frist page of the project
 
@@ -22,7 +22,7 @@ I wrote the first couple of lines of code to get the page up and running, I used
 Replace this text with notes describing how you acted upon the user feedback: made changes to design, etc.
 I changed the layout of the website per the endusers request and moved it to be more in the middle of the page.
 
-### DATE HERE
+### 5/05/24
 
 I built the database and designed a logo for the website
 
@@ -62,7 +62,7 @@ So far the Database is working as intended, all of the data I set to go into the
 
 All the costomer data is going into the intended Database, for the sign ups they are going into the customers table and is providing the info for when the user is loging in with their login, it is also taking the users orders once they push the 'complet order' button at the bottom of the list, the menu is showing its contents and every thing is working as intended.
 
-### DATE HERE
+### 17/07/24
 
 I made a menu page, a home page, and contact page
 
@@ -72,7 +72,7 @@ I mainly did a lot of writing for the pages, a little bit of codeing here and th
 
 Replace this text with notes describing how you acted upon the user feedback: made changes to design, etc.
 
-### DATE HERE
+### 18/07/24
 
 I added a function that adds up the total of the users order
 
@@ -91,24 +91,3 @@ Replace this text with brief notes describing what you worked on, any decisions 
 > Replace this text with any user feedback / comments
 
 Replace this text with notes describing how you acted upon the user feedback: made changes to design, etc.
-
-### DATE HERE
-
-Replace this test with what you are working on
-
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
-
-> Replace this text with any user feedback / comments
-
-Replace this text with notes describing how you acted upon the user feedback: made changes to design, etc.
-
-### DATE HERE
-
-Replace this test with what you are working on
-
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
-
-> Replace this text with any user feedback / comments
-
-Replace this text with notes describing how you acted upon the user feedback: made changes to design, etc.
-

@@ -77,19 +77,19 @@ Based on the feedback I can judge whether they find the system useful or not and
 
 Systems should be easily navigable, so end-users can find the content or functionality they need.
 
-Replace this text with an explanation of why the principle is relevant to this particular project.
-
-Replace this text with an explanation of what you will need to consider moving forward and how the project will be impacted by this principle.
-
-### UX PRINCIPLE NAME HERE
-
-Replace this text with a clear explanation of what the UX design principle means.
-
 Since the users of the Burger Town website could have no IT skills at all, the system must be as simple to navigate as possible, with every function clearly findable. 
 
 Non-technical users can find system frustrating to use when features are not clearly visible, or even hidden away (e.g. knowing that you have to swipe to delete something, rather than just having a delete button).
 I need to make all navigation clear and easy to use, with no assumptions made about the abilities of the users.
 The language used in the UI used must be clear and unambiguous so that there is no confusion over what any part of the system does
+
+### Desirability
+
+Replace this text with a clear explanation of what the UX design principle means.
+
+Replace this text with an explanation of why the principle is relevant to this particular project.
+
+Replace this text with an explanation of what you will need to consider moving forward and how the project will be impacted by this principle.
 
 
 -------------------------------------------------
