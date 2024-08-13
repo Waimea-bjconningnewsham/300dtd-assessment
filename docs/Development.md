@@ -82,6 +82,16 @@ I tested this by putting things into the ordering list and seeing it add up the 
 
 The adding was correct and I can add as many thing as I would like and the adding function would work.
 
+### 2/08/2024
+
+My logout was buggy
+
+My logout was not working right so I had to find the code that wasn't working or see if the code was there at all.
+
+> Replace this text with any user feedback / comments
+
+I found the problem the code wasn't right, took me a bit to find out in what way, but when I did I was able to fix it pretty quickly.
+
 ### DATE HERE
 
 Replace this test with what you are working on
