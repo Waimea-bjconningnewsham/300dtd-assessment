@@ -8,11 +8,11 @@
     <label>Name</label>
     <input name="name" type="text" required>
 
-    <label>Username</label>
+    <label>Email Address</label>
     <input name="email" type="text" required>
 
     <label>Password</label>
-    <input name="password" type="password" required>
+    <input name="pass" type="password" required>
 
     <input type="submit" value="Sign Up">
 </form>

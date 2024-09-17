@@ -12,11 +12,11 @@ $custID = $_SESSION['customer']['id'];
 try {
     $stmt = $db->prepare($query);
     $stmt->execute([$custID]);
-    $orderID = $db->lastInsertId(); // Get the last inserted order ID
+    $orderID = $db->lastInsertId();
 }
 
 catch (PDOException $e) {
-    consoleLog($e->getMessage(), 'DB Insert', ERROR);
+    consoleLog($e->getMessage(), 'DB Indert', ERROR);
     die('There was an error adding your order to the list');
 }
 
@@ -34,29 +34,10 @@ foreach ($orderItems as $item) {
     }
 }
 
-
-/*
-0: [id:7, qty:3]
-1: [id:3, qty:1]
-2: [id:10, qty:1]
-3: [id:5, qty:1]
-4: [id:1, qty:1]
-5: [id:3, qty:1]
-*/
-   
-
-    // TODO: You need to write complete-order.php
-    // It should :
-    //  1. INSERT a new record into the ORDERS table, and get the ID  DONE
-    //  2. Get all of the items from the SESSION 
-    //  3. One by one, INSERT them along with ORDER ID into CONTAINS table
-    // 
-
-
 // Set success message with confirmation in session
 $_SESSION['success_message'] = "Your order has been successfully placed. Your order ID is " . $orderID . ".";
 
 // Redirect
-header("Location: order.php");
+header("Location: complete-message.php");
 exit();
 ?>

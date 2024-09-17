@@ -27,9 +27,17 @@
             // We got here, so user and password both ok
             $_SESSION['customer']['loggedIn'] = true;
             // Save user info for later use
-            $_SESSION['customer']['email'] = $userData['email'];
+            $_SESSION['customer']['admin'] = $userData['admin'];
+            $_SESSION['customer']['user'] = $userData['user'];
             $_SESSION['customer']['name'] = $userData['name'];
             $_SESSION['customer']['id'] = $userData['id'];
+            // if ($userData['admin'] == 1) {
+            //     $_SESSION['customer']['admin'] = true;
+            // }
+            // else {
+            //     $_SESSION['customer']['admin'] = false;
+            // }
+            
 
             // Clear out the order ready to start a new one.
             $_SESSION['order'] = null;
@@ -46,8 +54,9 @@
     }
 
     echo '<p><a href="index.php">Home</a>';
+
+    
 ?>
 
 <?php require_once '_bottom.php'; ?>
-
 

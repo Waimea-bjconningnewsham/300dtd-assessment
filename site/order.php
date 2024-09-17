@@ -13,7 +13,6 @@
         echo 'None!';
     }
     else {
-        
         echo '<ul>';
 
         // Show what is currently in order
@@ -37,7 +36,7 @@
         echo '</ul>';
     }
 
-
+    //-------------------------------------------------------------------
     $totalPrice = 0.0; //adding the total price of the order
 
     foreach ($orderItems as $item) {
@@ -63,8 +62,7 @@
     echo "The total of your order is $" . number_format($totalPrice, 2) . ".";}
     
     echo '<p><a href="reset-order.php">Reset the Order</a>';
-
-    //-------------------------------------------------------------------
+   //-----------------------------------------------------------------------------------------
     // New item form
     $db = connectToDB();
 
@@ -97,7 +95,6 @@
         echo '<option value="' . $id . '">' . $product . ' - ' . $price . '</option>';
     }
 
-   
     echo '</select>';
 
     echo '<label>Quantity</label>
@@ -118,3 +115,5 @@
 
 
 <?php require_once '_bottom.php'; ?>
+
+

@@ -9,6 +9,7 @@ define('SITE_AUTHOR', 'Brianna');
 
 // Check if we user is logged in and get their details
 $loggedIn = $_SESSION['customer']['loggedIn'] ?? false;
+$isAdmin = $_SESSION['customer']['admin'] ?? false;
 $customername = $_SESSION['customer']['name'] ?? '';
 
 ?>
@@ -34,16 +35,20 @@ $customername = $_SESSION['customer']['name'] ?? '';
                 <a href="index.php">Home</a>
                 <a href="menu.php">Menu</a>
                 
-                <?php if ($loggedIn): ?>
+                <?php if ($isAdmin): ?>
+                    <a href="order-see.php">View Orders</a>
+                    <a href="do-logout.php">Logout</a>  
+
+                <?php elseif ($loggedIn): ?>
                     <a href="order.php">Place an Order</a>
                     <a href="do-logout.php">Logout</a>
-                
+
                 <?php else: ?>
                     <a href="signup.php">Sign up</a>
                     <a href="login.php">Login</a>
                 
                 <?php endif ?>
-                
+
                 <a href="contact.php">Contact Us</a>
 
             </ul> 

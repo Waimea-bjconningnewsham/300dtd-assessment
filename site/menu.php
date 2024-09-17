@@ -1,5 +1,6 @@
 <?php require_once '_top.php'; ?>
 
+
 <?php
     $db = connectToDB();
 
@@ -28,6 +29,7 @@
         echo '<li><b>' . $product, "</b>:    " , $price . '</li>';
     }
     echo '</ul>';
+    
 ?>
 
 <?php require_once '_bottom.php'; ?>
