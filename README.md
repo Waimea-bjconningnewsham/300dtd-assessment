@@ -7,9 +7,14 @@ It is a database-driven web app that allows users to:
 Normal users can:
 - Create accounts
 - Place orders
+- View the menu
+- View contact list
+- Cancel orders
 
 Admin users can:
 - See all orders placed
+- See contact list
+- See menu
 
 ## Documentation
 
@@ -25,5 +30,5 @@ Normal user:
 - Pass: customer
 
 Admin user:
-- Email: admin@gmail.com
-- Pass: admin
+- Email: owner@owner.com
+- Pass: owner

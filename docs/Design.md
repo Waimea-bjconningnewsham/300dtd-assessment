@@ -85,11 +85,11 @@ The language used in the UI used must be clear and unambiguous so that there is 
 
 ### Desirability
 
-Replace this text with a clear explanation of what the UX design principle means.
+User Needs and Preferences: Desirability involves how well a feature or solution meets the needs and preferences of the end users. It’s about creating functionalities that users find useful, intuitive, and appealing.
 
-Replace this text with an explanation of why the principle is relevant to this particular project.
+User Engagement: In software development, the ultimate goal is often to create products that engage and satisfy users. Desirability ensures that features, interfaces, and functionalities are aligned with user preferences and needs, which enhances user engagement and satisfaction.
 
-Replace this text with an explanation of what you will need to consider moving forward and how the project will be impacted by this principle.
+I will need to consider and implament all user feedback and other comments, for the most effective result in user desirability.
 
 
 -------------------------------------------------
@@ -98,12 +98,15 @@ Replace this text with an explanation of what you will need to consider moving f
 
 ### Database Structure
 
-Place a image here that shows the *final design* of your database: tables, fields and relationships.
+This is the final design of my database:
+
+![DB Design Final](images/DataBaseSetUp.png)
 
 ### User Interface Design
 
-Place images here that show your *final design* of your UI: layout, colours, etc.
+This is the final design of my web pages:
 
+![UI Final](images/WebsiteMainPage.png)
 
 -------------------------------------------------
 
@@ -111,11 +114,17 @@ Place images here that show your *final design* of your UI: layout, colours, etc
 
 ### Database Structure
 
-Place a image here that shows the *actual database structure* that you implemented: tables, fields and relationships.
+This is the final database structure that I used:
+
+![DB final](images/DataBase.png)
 
 ### User Interface Design
 
-Place screenshots and notes here that show your *actual system UI* in action.
+This is how my website turned out:
+
+![Site 1](images/ProofThatItWorks.png)
+
+![Site 2](images/ProofThatItWorks2.png)
 
 
 -------------------------------------------------
@@ -124,34 +133,34 @@ Place screenshots and notes here that show your *actual system UI* in action.
 
 ### Meeting the Needs of the Users
 
-Replace this text with a brief evaluation of how well you met the needs of your users. Look at what you initially wrote about who they are, what specific needs they have, etc. and discuss how well the system meets those needs.
+The users needs have been meet as best as possible with the website design and fuctionality. Feedback from end user had been takin in and added, changes where made to adjust to the end users needs and requests.
 
 ### Meeting the System Requirements
 
-Replace this text with a brief evaluation of how well you met the requirements that you defined at the start of the project, etc. Look back at the list of features / functionality you initially set and discuss how well your system has implemented each one.
+I've meet all of the requirements that I stated at the start of the project to the fullest of my abilitys and byond. My website is easy to use for those with no knowladge of tech, it functions as intended and it is set up in a way that if anything goes wrong in the future it will be easily identifuable and fixable.
 
-### Review of IMPLICATION NAME HERE
 
-Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
+### Review of Uability
 
-### Review of IMPLICATION NAME HERE
+This implacation was adresed with how I designed this website, it has be labled heavily.
 
-Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
+### Review of Funtionalitly
 
-### Review of IMPLICATION NAME HERE
+This implacation was adressed with how I made the website, this was done by the layout of the website, alowing me to make sure that it worked.
 
-Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
+### Review of Future Proofing
 
-### Review of UX PRINCIPLE NAME HERE
+This implacation was adressed with how I set up my website. This was done when I started making it, I was also making it with the future in mind, about what would happen if they where more people if there where more users.
 
-Replace this text with brief notes showing how the UX principle was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
+### Review of Findable
 
-### Review of UX PRINCIPLE NAME HERE
+My website is full of lables, everything is labled clearly.
 
-Replace this text with brief notes showing how the UX principle was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
+### Review of Useful
 
-### Review of UX PRINCIPLE NAME HERE
+This interface is fully usable, and it tackles a real life problem of complext ordering systems. Along with being desirabile from the end user.
 
-Replace this text with brief notes showing how the UX principle was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
+### Review of Desirability
 
+This implication has been fully satificed. I had changed and edited every aspect the end user did not like or thought could be inproved, resulting in a much smoother and functnable interface.
 

@@ -27,6 +27,7 @@ I changed the layout of the website per the endusers request and moved it to be 
 I built the database and designed a logo for the website
 
 I started with a basic database building it as I went, adding to it when I needed to, taking away what I didn't need, I also wrote code to put the users login data into the database to be used again when they login again. After that I started to design the logo for my website along with a slogin for the fun of it.
+![Site 2](images/logo.png)
 
 > Could you make the loging in look nicer, I also really like the logo and slogin, it's really funny, it matches perfectly and really makes it a website
 
@@ -37,6 +38,10 @@ I changed the look of the loging in sction and made it loook cleaner than before
 Tested the login and sign up forms to see if they where still working as intended
 
 The login is working just fine but something is broken in the sign up so now I need to find out whats wrong and fix it.
+
+![DB Before Adding](images/Before.png)
+![DB Design Final](images/SignUp.png)
+![DB Design Final](images/After.png)
 
 > Replace this text with any user feedback / comments
 
@@ -91,13 +96,3 @@ My logout was not working right so I had to find the code that wasn't working or
 > Replace this text with any user feedback / comments
 
 I found the problem the code wasn't right, took me a bit to find out in what way, but when I did I was able to fix it pretty quickly.
-
-### DATE HERE
-
-Replace this test with what you are working on
-
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
-
-> Replace this text with any user feedback / comments
-
-Replace this text with notes describing how you acted upon the user feedback: made changes to design, etc.
