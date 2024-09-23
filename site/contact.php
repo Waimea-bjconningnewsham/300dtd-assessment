@@ -5,10 +5,8 @@
 <b>Call Us: </b>0212056872<br><br>
 <b>Email Us: </b>burgertown@gmail.com<br><br>
 <b>Text Us: </b>0212056872<br><br>
-<b>We're Here To Help If You Need Us Or Have A Complant!</b><br><br>
-<b>Call Our Owner: </b>0212250064<br><br>
-<b>Email Our Owner: </b>Regan.Small@gmail.com<br><br>
-<b>Have A Great Day And Ejoy Our Website.</b><br><br>
+<b>We're Here To Help If You Need Us Or Have A Complaint!</b><br><br>
+<b>Have A Great Day.</b><br><br>
 
 
 <form

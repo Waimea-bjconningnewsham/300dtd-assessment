@@ -1,6 +1,6 @@
 <?php require_once '_top.php'; ?>
 
-<?php if ($loggedIn): $info  = '';
+<?php if ($loggedIn): $info  =  'Hi ' .$name. ', please place your order';;
       else:
          $info  = 'Please <b>sign up/log in</b> before you place your order';
       endif 
